@@ -352,9 +352,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d05cf6d7a3f1b914aa80d52fa2b05cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  move: 0
-  target: {fileID: 0}
+  bouleGazNb: 5
+  particule: {fileID: 6714613821011108926, guid: 8ce3068763727a841853cdb590c36702,
+    type: 3}
+  echanging: 0
 --- !u!1 &1746914116
 GameObject:
   m_ObjectHideFlags: 0
