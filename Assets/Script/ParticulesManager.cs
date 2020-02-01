@@ -12,7 +12,7 @@ public class ParticulesManager : MonoBehaviour
     {
         for (int i = 0; i < bouleGazNb; i++)
         {
-            GameObject bouleGaz = Instantiate(particule,new Vector3(transform.position.x + Random.Range(-2,2), transform.position.y + Random.Range(-2, 2),transform.position.z),particule.transform.rotation);
+            GameObject bouleGaz = Instantiate(particule,new Vector3(transform.position.x + Random.Range(-0.75f,0.76f), transform.position.y + Random.Range(-0.5f, 0.6f),transform.position.z),particule.transform.rotation);
             bouleGaz.transform.parent = transform;
         }
 
