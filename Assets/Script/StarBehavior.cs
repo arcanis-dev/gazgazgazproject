@@ -61,6 +61,7 @@ public class StarBehavior : MonoBehaviour {
         if (col.gameObject.tag == "particle")
         {
             Destroy(col.gameObject);
+            Debug.Log("ok");
             if(starMass < maxStarMass)
             {
                 StartCoroutine(EatGas());

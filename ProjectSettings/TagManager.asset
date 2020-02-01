@@ -6,6 +6,7 @@ TagManager:
   tags:
   - zoneEchange
   - particle
+  - catch
   layers:
   - Default
   - TransparentFX

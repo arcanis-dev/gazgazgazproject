@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3973276688006301958}
   - component: {fileID: 5929257278078080971}
+  - component: {fileID: 3007464122357923256}
   - component: {fileID: 1154855782790304483}
-  - component: {fileID: 1154855782790304480}
   - component: {fileID: 1154855782790304481}
   m_Layer: 0
   m_Name: noyeau
@@ -83,20 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1154855782790304483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8251096049577770106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ea10044b15a404bbb556b7dae5906e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forceScale: 22.67
---- !u!114 &1154855782790304480
+--- !u!114 &3007464122357923256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,6 +99,19 @@ MonoBehaviour:
   particule: {fileID: 6714613821011108926, guid: 8ce3068763727a841853cdb590c36702,
     type: 3}
   echanging: 0
+--- !u!114 &1154855782790304483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8251096049577770106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ea10044b15a404bbb556b7dae5906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceScale: 22.67
 --- !u!50 &1154855782790304481
 Rigidbody2D:
   serializedVersion: 4
