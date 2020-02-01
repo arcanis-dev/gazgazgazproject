@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{76fbd085-a33b-43df-983d-a123c5855bdf}">
+		<property name="assetPath">
+			<value>Comète/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6827b735-3388-4f51-b520-31b1423b86bf}</destination>
+		</relationship>
+	</object>
+</objects>

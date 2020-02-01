@@ -71,13 +71,14 @@ public class StarBehavior : MonoBehaviour {
                 field.GetComponent<Renderer>().enabled = false;
                 star.GetComponent<Renderer>().enabled = false;
                 blackhole.GetComponent<Renderer>().enabled = true;
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Formationtrounoir");
                 blackholetransition = true;
 
             }
             else
             {
-                this.starMass += 10.0f  * Time.unscaledDeltaTime;
-                blackhole.transform.localScale = Vector3.Lerp(new Vector3(1,1,1), new Vector3(1.5f, 1.5f, 1.5f), Time.deltaTime);
+                this.starMass = 10.0f;
+                blackhole.GetComponent<Animator>().SetBool("bhole",true);
             }
         }
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3f2c1b72-932d-470a-b0e6-8080e5a28c09}">
+		<property name="assetPath">
+			<value>Nuage/Déplacement/Déplacement -001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.2119727891156464</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6827b735-3388-4f51-b520-31b1423b86bf}</destination>
+		</relationship>
+	</object>
+</objects>

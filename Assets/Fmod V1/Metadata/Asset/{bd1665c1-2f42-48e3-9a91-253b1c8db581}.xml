@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EncodableAsset" id="{bd1665c1-2f42-48e3-9a91-253b1c8db581}">
+        <property name="assetPath">
+            <value>Nuage/</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{6827b735-3388-4f51-b520-31b1423b86bf}</destination>
+        </relationship>
+    </object>
+</objects>

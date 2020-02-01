@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7830060926823349717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Nuages/Gaindemasse
+  m_EditorClassIdentifier: 
+  Path: event:/Nuages/Gaindemasse
+  guid: c0343efa99e2b54aa7ecdb5f99b8c1e1
+  Banks:
+  - {fileID: -5739551165137503997}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5739551165137503997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod V1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637161172928691254
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4716200081135062164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Etoiles/Statefaible
+  m_EditorClassIdentifier: 
+  Path: event:/Etoiles/Statefaible
+  guid: d24111d0b4ef77448de9a0cbcbb61317
+  Banks:
+  - {fileID: -5739551165137503997}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 22790
+--- !u!114 &-3461763886517275115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Trou noir/Formationtrounoir
+  m_EditorClassIdentifier: 
+  Path: event:/Trou noir/Formationtrounoir
+  guid: 07cd3612940c934f8b57562cb07bdb21
+  Banks:
+  - {fileID: -5739551165137503997}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5300
+--- !u!114 &-2722560550306490802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod V1/Build/Desktop/Master Bank.strings.bank
+  SubDir: 
+  lastModified: 637161172928751022
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1090
+  Exists: 1
+--- !u!114 &-1556626856400291403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Etoiles/Statepleine
+  m_EditorClassIdentifier: 
+  Path: event:/Etoiles/Statepleine
+  guid: f681b2e28d35184aaa564581d4360c66
+  Banks:
+  - {fileID: -5739551165137503997}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1197414246309222470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Etoiles/Statemoyenne
+  m_EditorClassIdentifier: 
+  Path: event:/Etoiles/Statemoyenne
+  guid: b58df3e3ffeb3f45825410051bbc1f5c
+  Banks:
+  - {fileID: -5739551165137503997}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18290
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -2722560550306490802}
+  - {fileID: -5739551165137503997}
+  EditorEvents:
+  - {fileID: -3461763886517275115}
+  - {fileID: 7132494112138858316}
+  - {fileID: -1197414246309222470}
+  - {fileID: 8202068363262403927}
+  - {fileID: -7830060926823349717}
+  - {fileID: 2612721365396726857}
+  - {fileID: -4716200081135062164}
+  - {fileID: -1556626856400291403}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -5739551165137503997}
+  StringsBanks:
+  - {fileID: -2722560550306490802}
+  stringsBankWriteTime: 637161172928751022
+  cacheVersion: 3
+--- !u!114 &2612721365396726857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Nuages/Pertedemasse
+  m_EditorClassIdentifier: 
+  Path: event:/Nuages/Pertedemasse
+  guid: ca07a532d0f02941b830cf45a2c9a688
+  Banks:
+  - {fileID: -5739551165137503997}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7132494112138858316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Nuages/Deplacement
+  m_EditorClassIdentifier: 
+  Path: event:/Nuages/Deplacement
+  guid: 3769c15be453f64e869432015bf4b2bb
+  Banks:
+  - {fileID: -5739551165137503997}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8202068363262403927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Trou noir/Trounoirstance
+  m_EditorClassIdentifier: 
+  Path: event:/Trou noir/Trounoirstance
+  guid: c01bfbad577b8948847fee795a2f0680
+  Banks:
+  - {fileID: -5739551165137503997}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5833
