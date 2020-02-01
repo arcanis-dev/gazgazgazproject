@@ -19,5 +19,13 @@ public class ParticulesManager : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if (transform.childCount < 2)
+        {
+            Debug.Log("mort");
+        }
+    }
+
 
 }

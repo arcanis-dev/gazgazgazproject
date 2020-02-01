@@ -63,6 +63,7 @@ public class StarBehavior : MonoBehaviour {
             else
             {
                 this.starMass += 10.0f  * Time.unscaledDeltaTime;
+                blackhole.transform.localScale = Vector3.Lerp(new Vector3(1,1,1), new Vector3(1.5f, 1.5f, 1.5f), Time.deltaTime);
             }
 
         }
