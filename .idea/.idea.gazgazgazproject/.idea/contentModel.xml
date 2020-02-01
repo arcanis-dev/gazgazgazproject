@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Arcanus\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -6,10 +6,43 @@
     <e p="C:\Users\Arcanus\Documents\GitHub\gazgazgazproject" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="John Lim's Blend Modes" t="Include">
+          <e p="Add.shader" t="Include" />
+          <e p="CGIncludes" t="Include">
+            <e p="PhotoshopBlendModes.cginc" t="Include" />
+          </e>
+          <e p="Color.shader" t="Include" />
+          <e p="ColorBurn.shader" t="Include" />
+          <e p="ColorDodge.shader" t="Include" />
+          <e p="DarkerColor.shader" t="Include" />
+          <e p="Difference.shader" t="Include" />
+          <e p="Divide.shader" t="Include" />
+          <e p="Exclusion.shader" t="Include" />
+          <e p="HardLight.shader" t="Include" />
+          <e p="HardMix.shader" t="Include" />
+          <e p="Hue.shader" t="Include" />
+          <e p="Lighten.shader" t="Include" />
+          <e p="LighterColor.shader" t="Include" />
+          <e p="LinearBurn.shader" t="Include" />
+          <e p="LinearDodge.shader" t="Include" />
+          <e p="LinearLight.shader" t="Include" />
+          <e p="Luminosity.shader" t="Include" />
+          <e p="Overlay.shader" t="Include" />
+          <e p="PinLight.shader" t="Include" />
+          <e p="Saturation.shader" t="Include" />
+          <e p="Screen.shader" t="Include" />
+          <e p="SoftLight.shader" t="Include" />
+          <e p="Subtract.shader" t="Include" />
+          <e p="VividLight.shader" t="Include" />
+        </e>
         <e p="Script" t="Include">
+          <e p="GasSpawner.cs" t="Include" />
+          <e p="Limitation.cs" t="Include" />
           <e p="Particule.cs" t="Include" />
           <e p="ParticulesManager.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="ScrollSurface.cs" t="Include" />
           <e p="StarBehavior.cs" t="Include" />
         </e>
       </e>
