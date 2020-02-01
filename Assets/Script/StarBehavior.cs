@@ -11,11 +11,21 @@ public class StarBehavior : MonoBehaviour {
     [SerializeField] private float scaleFactor;
     
     [SerializeField] private Gradient sunGradient;
-    [SerializeField] private Color[] colors;
     
     public SpriteRenderer starRenderer;
     public SpriteRenderer FieldRenderer;
 
+    [SerializeField] private Color[] colors = new Color[3];
+    public SpriteRenderer sr;
+    public GameObject field;
+    public GameObject surface;
+    public GameObject star;
+    public GameObject blackhole;
+    bool isblackhole;
+    bool blackholetransition;
+    private void Start() {
+        sr = this.GetComponent<SpriteRenderer>();
+    }
 
     public IEnumerator EatGas() {
         float min = 0;
@@ -49,13 +59,25 @@ public class StarBehavior : MonoBehaviour {
     }
 
     public void LoseMass() {
-        if (this.starMass > 0)
+        if (this.starMass > 2 && blackholetransition == false)
         {
             this.starMass -= loseSpeed * Time.unscaledDeltaTime;
         }
         else
         {
-            Debug.Log("boom");
+            if (blackholetransition == false)
+            {
+                surface.GetComponent<Renderer>().enabled = false;
+                field.GetComponent<Renderer>().enabled = false;
+                star.GetComponent<Renderer>().enabled = false;
+                blackhole.GetComponent<Renderer>().enabled = true;
+                blackholetransition = true;
+
+            }
+            else
+            {
+                this.starMass += 10.0f  * Time.unscaledDeltaTime;
+            }
         }
 
     }
