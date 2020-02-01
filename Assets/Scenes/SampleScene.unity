@@ -164,6 +164,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1154855783062820065}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &191941017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8414816973967223386, guid: 9b33bd83933af774fab56089487292f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7909631451407493355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &545832501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7909631451568469788, guid: 9b33bd83933af774fab56089487292f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7909631451407493355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &779792940 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7909631449833655877, guid: 9b33bd83933af774fab56089487292f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7909631451407493355}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starMass: 10
   maxStarMass: 10
-  loseSpeed: 0.1
+  loseSpeed: 0.3
   eatingSpeed: 1
   scaleFactor: 10
   colors:
@@ -361,6 +379,10 @@ MonoBehaviour:
   - {r: 0.9882353, g: 1, b: 0.83137256, a: 0}
   - {r: 1, g: 0.37254903, b: 0.3254902, a: 0}
   sr: {fileID: 1021804793}
+  field: {fileID: 779792940}
+  surface: {fileID: 545832501}
+  star: {fileID: 1021804791}
+  blackhole: {fileID: 191941017}
 --- !u!1001 &1865290066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -716,6 +738,31 @@ PrefabInstance:
         type: 3}
       propertyPath: loseSpeed
       value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009548213025842644, guid: 9b33bd83933af774fab56089487292f3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5513864
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009548213025842644, guid: 9b33bd83933af774fab56089487292f3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5513864
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009548213025842644, guid: 9b33bd83933af774fab56089487292f3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5513864
+      objectReference: {fileID: 0}
+    - target: {fileID: 8414816973967223386, guid: 9b33bd83933af774fab56089487292f3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143031924998965617, guid: 9b33bd83933af774fab56089487292f3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7909631451013292237, guid: 9b33bd83933af774fab56089487292f3, type: 3}
